@@ -1,0 +1,20 @@
+center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+  align-items: center;
+}
+button {
+  border-radius: 20%;
+  border: 1px solid white;
+}
+button:hover {
+  color: purple;
+  background-color: white;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(10px);
+  transition: 0s;
+}
