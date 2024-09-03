@@ -1,7 +1,7 @@
 const question = document.querySelector(".question");
 const answer = document.querySelector(".answer");
 let number1 = Math.floor(Math.random() * 9) + 2;
-let number2 = Math.floor(Math.random() * 9) + 2;
+let number2 = 3
 const btnDiv = document.querySelector(".buttonDiv");
 const checkBtn = document.querySelector(".check");
 
@@ -38,7 +38,7 @@ checkBtn.addEventListener("click", checkAnswer);
 
 function restart() {
   number1 = Math.floor(Math.random() * 9) + 2;
-  number2 = Math.floor(Math.random() * 9) + 2;
+  number2 =3;
   question.innerHTML = `${number1} x ${number2} = ?`;
   answer.value = "";
   btnDiv.innerHTML = `
